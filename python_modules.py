@@ -7,7 +7,7 @@ import math
 import random
 # we have a random method in python library wchich we use by importing
  
-print(random.random())
+print(random.random())= 
 # this generates a float between 0-1
 
 num_float = 23.44
@@ -20,4 +20,7 @@ print(math.ceil(num_float))
 # Task 
 # get user input of a float number
 number = input('What number would you like to round?')
-print(round(float(number),0))
+if float(number) % 1 == 0 
+    number = (input('You must enter a float, please try again.'))
+else:
+    print(round(float(number),0))
