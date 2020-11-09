@@ -1,10 +1,17 @@
 # Python Modules
 - Python Library and Built in Functions
 - What is pip and how do we use it 
+    - pip is a package manager, we use it to install / use packages in python such as requests
+    - syntax: pip install name_of_package
 - APIs with python
 
 - Built in functions help us accelerate our development of software
-
+- Example: creating a customised function. 
+```python
+import sys # import module
+def system_path():
+    print(sys.path) # you can use the om
+```
 ## Task
 - get user input of a float number
 - check if the number is lower than .50 then round the figure to lower end
@@ -12,7 +19,7 @@
 
 example - num_float = 23.66 - round it to 24, num_float = 23.50 - round it to lower end
 
-## Syntax
+### Syntax
 First we must `import` the necessary modules from python, in this case `math`
 
 ```python
