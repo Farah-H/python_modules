@@ -4,14 +4,23 @@
     - pip is a package manager, we use it to install / use packages in python such as requests
     - syntax: pip install name_of_package
 - APIs with python
+    - https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/
+
 
 - Built in functions help us accelerate our development of software
 - Example: creating a customised function. 
-```python
-import sys # import module
-def system_path():
-    print(sys.path) # you can use the om
-```
+    ```python
+    import sys # import module
+    def system_path():
+        print(sys.path) # you can use the om    
+
+## Requests
+
+- Local host makes an API call to a www server
+  - To find out if the web is live
+  - To handle the user as per the response from the web
+  - Meeting the user's expectation
+  - ![](https://media.discordapp.net/attachments/767793850529087489/775332176240574494/unknown.png)
 ## Task
 - get user input of a float number
 - check if the number is lower than .50 then round the figure to lower end

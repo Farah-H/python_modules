@@ -45,6 +45,13 @@
 # import datetime
 # print(datetime.datetime.today())
 
-import sys
+# import sys
 
-print(sys.path)
+# print(sys.path)
+
+# How can we create a customised method and utilise the built in function 
+import sys
+def system_path():
+    print(sys.path)
+# What is PIP? 
+# PIP is a package manager
