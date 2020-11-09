@@ -74,3 +74,8 @@ else:
     else:
         print(math.ceil(number))
 ```
+
+# JSON Basics 
+- Java script object notation
+- usecases - browser data
+- data is in key, value pairs

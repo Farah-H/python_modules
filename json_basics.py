@@ -20,3 +20,9 @@ with open('new_json_file.json') as jsonfile:
     print(type(car))
     print(car['engine'])
     print(car['name'])
+
+# # exception handling 
+# try # if
+# except # elif
+# raise # elif send back the original exception
+# finally # 
