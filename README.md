@@ -80,6 +80,24 @@ else:
 - usecases - browser data
 - data is in key, value pairs
 
+## Handling files and permissions
+
+
+`open(file, mode)`
+
+| Mode	 |Description|
+| :----: |:----                                                    |
+|'r'	 |This is the default mode. It Opens file for reading.       |
+|'w'	 |This Mode Opens file for writing.  If file does not exist, it creates a new file. If file exists it truncates the file.|
+|'x'	 |Creates a new file. If file already exists, the operation fails.|
+|'a'	 |Open file in append mode. If file does not exist, it creates a new file.|
+|'t'	 |This is the default mode. It opens in text mode.|
+|'b'	 |This opens in binary mode.
+|'+'	 |This will open a file for reading and writing (updating)|
+
+
+
+
 # Exception Handling 
 - `try`& `except` blocks
 - `raise`& `finally`
