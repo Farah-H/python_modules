@@ -79,3 +79,39 @@ else:
 - Java script object notation
 - usecases - browser data
 - data is in key, value pairs
+
+# Exception Handling 
+- `try`& `except` blocks
+- `raise`& `finally`
+
+- use cases:
+    - we use these blocks when we expect an error or an exception from python interpreter
+- why:
+    - Helps to handle errors or exceptions and add cutomised message as well as make a decision based on the customer needs
+
+## Iteration 1@
+```python
+try:
+    file = open('orders.text')
+except:
+    print('PANIC! Something went wrong :( ')
+```
+
+
+## Iteration 2:
+```python
+# we will have a look at the practice use acases and implementation of try, except, raise and finally
+
+
+# we wil create a variable to store file data using open()
+try:
+    file = open('orders.text')
+except FileNotFoundError as errmssg: # creating an alias for file not found error in except block
+    print('Alert something went wrong' + str(errmssg))
+
+# if we still wanted to see the actual exception together with our customised message
+    raise
+
+finally: # finally will execute regardless of the above conditions
+    print('Hope you had a good customer experience, please visit again.')
+```
