@@ -96,7 +96,7 @@ else:
 |'+'	 |This will open a file for reading and writing (updating)|
 
 
-
+- Syntax `open('filename', 'permission_code')`
 
 # Exception Handling 
 - `try`& `except` blocks
